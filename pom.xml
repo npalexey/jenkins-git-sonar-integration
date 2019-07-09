@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.somegroup</groupId>
+  <groupId>somegroup</groupId>
   <artifactId>jenkins-git-sonar-integration</artifactId>
   <packaging>war</packaging>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0-SNAPSHOT</version>
   <name>jenkins-git-sonar-integration Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -13,6 +13,12 @@
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.sonatype.plugins</groupId>
+      <artifactId>nxrm3-maven-plugin</artifactId>
+      <version>1.0.2</version>
+      <type>maven-plugin</type>
     </dependency>
   </dependencies>
   <build>

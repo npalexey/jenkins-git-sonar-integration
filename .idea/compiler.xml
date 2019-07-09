@@ -6,7 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="jenkins-git-integration" />
+        <module name="jenkins-git-sonar-integration" />
       </profile>
     </annotationProcessing>
   </component>
